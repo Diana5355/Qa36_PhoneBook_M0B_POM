@@ -20,6 +20,10 @@ public class AuthenticationScreen extends BaseScreen{
     MobileElement passwordEditText;
     @FindBy(xpath = "//*[@text='LOGIN']")
     MobileElement loginButton;
+    @FindBy()
+    MobileElement registrationButton;
+
+    public ??
 
     public AuthenticationScreen fillLoginRegistrationForm(Auth auth){
 

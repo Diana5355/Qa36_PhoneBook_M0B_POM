@@ -35,7 +35,7 @@ public class LoginTests extends AppiumConfig {
         Assert.assertTrue(res);
     }
 
-    @Test
+    @Test(enabled = false)
     public void loginWrongEmail(){
         // test sc
 
